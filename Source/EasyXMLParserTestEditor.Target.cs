@@ -10,7 +10,6 @@ public class EasyXMLParserTestEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		CppStandard = CppStandardVersion.Latest;
 
 		ExtraModuleNames.AddRange( new string[] { "EasyXMLParserTest" } );
 	}

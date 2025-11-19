@@ -9,7 +9,6 @@ public class EasyXMLParserTestTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		CppStandard = CppStandardVersion.Latest;
 
 		ExtraModuleNames.AddRange( new string[] { "EasyXMLParserTest" } );
 	}
