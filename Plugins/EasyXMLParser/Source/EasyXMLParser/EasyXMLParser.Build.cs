@@ -7,7 +7,6 @@ public class EasyXMLParser : ModuleRules
 	public EasyXMLParser(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		CppStandard = CppStandardVersion.Latest;
 		bEnableExceptions = true;
 
 		PublicDependencyModuleNames.Add("Core");
